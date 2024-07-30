@@ -16,3 +16,15 @@
 ```bash
 node get_request/getposts.js
 ```
+
+## Query params
+
+Примитивная фильтрация комментариев относительно их постов с помощью ***query params***
+
+Сервиса [JSONPlaceholder](https://jsonplaceholder.typicode.com/) предоставляет URL для получения списка моковых комментариев (раздел /comments).
+
+### Запуск решения
+
+```bash
+node query_params/getcomments.js
+```
